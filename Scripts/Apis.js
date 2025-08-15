@@ -1,0 +1,22 @@
+﻿var EndPoint_Aut = 'https://ws.developmentservices.com.mx/BIFranquicias/';
+var EndPoint_Cat = 'https://ws.developmentservices.com.mx/AsegurateYa/Catalogos/Buscar/';
+var oServices = {};
+oServices.Autoriza = EndPoint_Aut + 'AutorizaId/Token/generar';
+oServices.Catalogo_Marcas = EndPoint_Cat + 'Trae_Marcas';
+oServices.Catalogo_Modelos = EndPoint_Cat + 'Trae_Modelos';
+oServices.Catalogo_Versiones = EndPoint_Cat + 'Trae_Versiones';
+oServices.Catalogo_Transmisiones = EndPoint_Cat + 'Trae_Transmisiones';
+oServices.Catalogo_Descripciones = EndPoint_Cat + 'Trae_Descripciones';
+
+var oServices_CS = {};
+oServices_CS.Auth = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Auth/api/Login/login" };
+oServices_CS.Valida_CP = { Metodo: "GET", Pagina: "https://apis-alfa.clickseguros.lat/Catalogos/api/CodigosPostales/Estado/" };
+oServices_CS.Qualitas_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Qualitas/api/Qualitas/Cotizacion" };
+oServices_CS.Afirme_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Afirme/api/Afirme/Cotizacion" };
+oServices_CS.Axa_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Axa/api/Axa/Cotizacion" };
+oServices_CS.Banorte_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Banorte/api/Banorte/Cotizacion" };
+oServices_CS.Chubb_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Chubb/api/Chubb/Cotizacion" };
+oServices_CS.Hdi_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Hdi/api/Hdi/Cotizacion" };
+oServices_CS.Mapfre_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Mapfre/api/Mapfre/Cotizacion" };
+oServices_CS.Momento_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Momento/api/Momento/Cotizacion" };
+oServices_CS.Zurich_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Zurich/api/Zurich/Cotizacion" };

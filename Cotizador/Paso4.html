@@ -1,0 +1,149 @@
+﻿<div id="Div_Paso4" style="width: 100%;">
+    <div style="width: 100%;" class="Titulo_Gris_1">
+        Paso 4
+    </div>
+    <div style="width: 100%; padding: 4px 0 8px; box-sizing: border-box; " class="Titulo_Verde_1">
+        Verifica, confirma los datos y realiza el pago
+    </div>
+    <div class="Barra_Proceso" style="position: relative;">
+        <div class="Barra_Proceso_Interna BPIP4"></div>
+        <div class="Barra_Proceso_Completado" style="left: 20%;"></div>
+        <div class="Barra_Proceso_Completado" style="left: 40%;"></div>
+        <div class="Barra_Proceso_Completado" style="left: 60%;"></div>
+        <div class="Barra_Proceso_Actual" style="left: 80%;"></div>
+        <div class="Barra_Proceso_Pendiente" style="left: 99.3%;"></div>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div class="Titulo_Verde_2" style="width: 100%; text-align: right; font-size: 24px;">
+        Monto final <span id="lblPT1" style="color: var(--Morado_60);">0</span>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div style="width: 100%;" class="Titulo_Verde_1">
+        Resumen del plan
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div class="Panel_100">
+        <div style="width: 50%; float: left;">
+            <div id="lblPlan" class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">Plan</div>
+            <div id="lblPCob1" class="Titulo_Verde_3" style="width: 100%; font-size: 14px;"></div>
+            <div id="lblPCob2" class="Titulo_Verde_3" style="width: 100%; font-size: 14px;"></div>
+            <div id="lblPCob3" class="Titulo_Verde_3" style="width: 100%; font-size: 14px;"></div>
+        </div>
+        <div style="width: 50%; float: left;">
+            <div class="Titulo_Verde_2" style="width: 100%;">
+                Beneficios escogidos
+            </div>
+            <div id="lblCob1" class="Titulo_Verde_3" style="width: 100%; font-size: 14px;"></div>
+            <div id="lblCob2" class="Titulo_Verde_3" style="width: 100%; font-size: 14px;"></div>
+            <div id="lblCob3" class="Titulo_Verde_3" style="width: 100%; font-size: 14px;"></div>
+            <div class="Titulo_Verde_3" style="width: 100%; font-size: 14px;">
+                Precio: $ <span id="lblPT2">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div class="Panel_100">
+        <div style="width: 50%; float: left;">
+            <div class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">
+                Datos personales
+            </div>
+        </div>
+        <div style="width: 50%; float: left; text-align: right;">
+            <div class="Boton_3" style="float: right; width: fit-content;" onclick="">
+                &nbsp;&nbsp;&nbsp;Editar&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div id="lblDPersonales" class="Titulo_Verde_3">&nbsp;</div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Panel_100">
+            <div style="width: 100%;" class="Titulo_Verde_1">
+                Comprobante de domicilio
+            </div>
+            <div style="width: 100%; padding:10px 0; box-sizing:border-box;" class="Titulo_Verde_3">
+                Es necesario adjuntar un comprobante de tu domicilio, puede ser un recibo de pago de servicios públicos.
+            </div>
+            <div style="width: 100%;">
+                <label id="lblFlComprobante" style="width: 100%; display: block;" class="Boton_1" for="flComprobante">
+                    Agregar comprobante
+                </label>
+                <input type="file" id="flComprobante" name="flComprobante" accept="image/png, image/jpeg, application/pdf" style="display: none;" onchange="Carga_Comprobante(); Valida_Paso4();" />
+                <input id="txtComprobante" name="CReq" type="hidden" class="Caja_1" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Panel_100">
+            <div style="width: 100%;" class="Titulo_Verde_1">
+                Documento de identificación
+            </div>
+            <div style="width: 100%; padding: 10px 0; box-sizing: border-box;" class="Titulo_Verde_3">
+                Es necesario adjuntar una foto de tu documento de identificación
+            </div>
+            <div style="width: 100%;">
+                <label id="lblFlIdentificacion" style="width: 100%; display: block;" class="Boton_1" for="flIdentificacion">
+                    Agregar identificación
+                </label>
+                <input type="file" id="flIdentificacion" name="flIdentificacion" accept="image/png, image/jpeg, application/pdf" style="display: none;" onchange="Carga_Identificacion(); Valida_Paso4();" />
+                <input id="txtIdentificacion" name="CReq" type="hidden" class="Caja_1" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div style="width: 50%; float: left;">
+            <div class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">
+                Datos de contacto
+            </div>
+        </div>
+        <div style="width: 50%; float: left; text-align: right;">
+            <div class="Boton_3" style="float: right; width: fit-content;" onclick="">
+                &nbsp;&nbsp;&nbsp;Editar&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div id="lblDcontacto" class="Titulo_Verde_3">&nbsp;</div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div style="width: 50%; float: left;">
+            <div class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">
+                Datos del vehículo
+            </div>
+        </div>
+        <div style="width: 50%; float: left; text-align: right;">
+            <div class="Boton_3" style="float: right; width: fit-content;" onclick="">
+                &nbsp;&nbsp;&nbsp;Editar&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div id="lblDVehiculos" class="Titulo_Verde_3">&nbsp;</div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div style="width: 100%; float: left;">
+            <div class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">
+                Método de pago
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Titulo_Verde_3">
+            Selecciona el metodo de pago:
+            <input id="txtMPago" name="CReq" type="hidden" class="Caja_1" />
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div style="width: 100%;">
+            <div id="Div_Btn_TC" class="Boton_4" style="width: 30%; float: left;" onclick="Selecciona_MPago('Tarjeta de crédito'); Valida_Paso4();">
+                Tarjeta de crédito
+            </div>
+            <div class="Espacio_1">&nbsp;</div>
+            <div id="Div_Btn_TD" class="Boton_4" style="width: 30%; float: left;" onclick="Selecciona_MPago('Tarjeta débito'); Valida_Paso4();">
+                Tarjeta débito
+            </div>
+            <div class="Espacio_1">&nbsp;</div>
+            <div id="Div_Btn_TB" class="Boton_4" style="width: 30%; float: left;" onclick="Selecciona_MPago('Transferencia bancaria'); Valida_Paso4();">
+                Transferencia bancaria
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div id="Btn_Continuar_P4" style="width: 100%;" onclick="" class="Boton_1">
+        Continuar
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+</div>

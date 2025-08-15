@@ -1,0 +1,26 @@
+﻿:root {
+    --Max_Ancho: 1280px;
+    --Min_Ancho: 500px;
+    --Fuente_General: MADE TOMMY;
+    --Fuente_Media: MADE TOMMY M;
+    --Fuente_Bold: MADE TOMMY B;
+    --Fondo_General: #F3F9FC;
+    --Texto_General_Size: 16px;
+    --Amarillo_ED: #ED8600;
+    --Azul_F3: #f3f9fc;
+    --Azul_E4: #E4EEFC;
+    --Blanco_FF: #FFFFFF;
+    --Gris_DF: #DFDFDF;
+    --Gris_6B: #6B6B6B;
+    --Gris_F6: #F6F6F6;
+    --Gris_7C_30: #7C766C4D;
+    --Gris_FA: #FAFAFA;
+    --Morado_60: #60158D;
+    --Rojo_FF: #FF0000;
+    --Verde_22: #226E8C;
+    --Verde_19: #195166;
+    --Verde_20: #206783;
+    --Verde_00: #008000;
+    --Verde_15: #159441;
+    --Negro_2E: #2E2E2E;
+}

@@ -1,0 +1,76 @@
+﻿* {
+    margin: 0 auto;
+}
+
+body {
+    min-width: var(--Min_Ancho);
+    max-width: var(--Max_Ancho);
+    font-family: var(--Fuente_General);
+    font-size: var(--Texto_General_Size);
+    background-color: var(--Fondo_General);
+}
+
+img {
+    vertical-align: middle;
+}
+
+.Espacio_1 {
+    width: 100%;
+    clear: both;
+}
+.Espacio_H1 {
+    width: 30px;
+    float:left;
+}
+.Espacio_H2 {
+    width: 6px;
+    float: left;
+}
+
+.Titulo_Gris_1 {
+    color: var(--Gris_6B);
+    font-size: 14px;
+}
+.Titulo_Gris_2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: var(--Gris_6B);
+}
+
+.Titulo_Verde_1 {
+    font-family: var(--Fuente_Media);
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: var(--Verde_20);
+}
+.Titulo_Verde_2 {
+    font-family: var(--Fuente_Bold);
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--Verde_19);
+}
+.Titulo_Verde_3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: var(--Verde_19);
+}
+
+.Texto_1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: var(--Negro_2E);
+}
+
+@media (max-width: 800px) {
+    .Espacio_H1 {
+        width:100%;
+    }
+}

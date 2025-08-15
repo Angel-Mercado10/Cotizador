@@ -1,0 +1,122 @@
+﻿<div id="Div_Paso5" style="width: 100%;">
+    <div style="width: 100%;" class="Titulo_Gris_1">
+        Paso 5
+    </div>
+    <div style="width: 100%; padding: 4px 0 8px; box-sizing: border-box; " class="Titulo_Verde_1">
+        Datos finales
+    </div>
+    <div class="Barra_Proceso" style="position: relative;">
+        <div class="Barra_Proceso_Interna BPIP5"></div>
+        <div class="Barra_Proceso_Completado" style="left: 20%;"></div>
+        <div class="Barra_Proceso_Completado" style="left: 40%;"></div>
+        <div class="Barra_Proceso_Completado" style="left: 60%;"></div>
+        <div class="Barra_Proceso_Completado" style="left: 80%;"></div>
+        <div class="Barra_Proceso_Actual" style="left: 99.3%;"></div>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div class="Panel_100">
+        <div class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">
+            Datos del vehículo
+        </div>
+        <div class="Texto_1" style="width: 100%;">
+            Contar con estos datos nos permite brindarte una atención más ágil y precisa al momento de contactarte.
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Número de motor
+            </div>
+            <div style="width: 100%;">
+                <input id="txtMotor" type="text" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Serie
+            </div>
+            <div style="width: 100%;">
+                <input id="txtSerie" type="text" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Panel_100">
+            <div style="width: 100%;" class="Titulo_Verde_1">
+                Escanear mi tarjeta de circulación
+            </div>
+            <div style="width: 100%; padding:10px 0; box-sizing:border-box;" class="Titulo_Verde_3">
+                Podemos escanear tu tarjeta de circulación y obtener estos datos por tí.
+            </div>
+            <div style="width: 100%;">
+                <label id="lblFlTCirculacion" style="width: 100%; display: block;" class="Boton_1" for="flTCirculacion">
+                    Escanear documento
+                </label>
+                <input type="file" id="flTCirculacion" name="flTCirculacion" accept="image/png, image/jpeg, application/pdf" style="display: none;" onchange="Carga_TCirculacion(); Valida_Paso5();" />
+                <input id="txtTCirculacion" name="CReq" type="hidden" class="Caja_1" />
+            </div>
+        </div>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div class="Panel_100">
+        <div class="Titulo_Verde_2" style="width: 100%; color: var(--Morado_60);">
+            Datos de ubicación
+        </div>
+        <div class="Texto_1" style="width: 100%;">
+            Tu póliza se emite con la información de tu domicilio
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Estado
+            </div>
+            <div style="width: 100%;">
+                <input id="txtEstado" type="text" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Municipio
+            </div>
+            <div style="width: 100%;">
+                <input id="txtMunicipio" type="text" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Colonia
+            </div>
+            <div style="width: 100%;">
+                <select id="cmbColonia" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                </select>
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Calle
+            </div>
+            <div style="width: 100%;">
+                <input id="txtCalle" type="text" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+        <div class="Texto_1" style="width: 100%;">
+            <div style="width: 100%;">
+                Número
+            </div>
+            <div style="width: 100%;">
+                <input id="txtNumero" type="text" name="CReq" style="width: 100%;" class="Caja_1" onblur="Valida_Paso5();" />
+            </div>
+        </div>
+        <div class="Espacio_1">&nbsp;</div>
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+    <div id="Btn_Continuar_P5" style="width: 100%;" onclick="" class="Boton_1">
+        Finalizar
+    </div>
+    <div class="Espacio_1">&nbsp;</div>
+</div>

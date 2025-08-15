@@ -1,0 +1,52 @@
+﻿<div class="Panel_100">
+    <div style="width: 100%;">
+        <div style="width: 60%; float: left; text-align: left; color: var(--Amarillo_ED)">
+            <img src="Imagenes/star.svg" style="margin-top: -6px;" />&nbsp;Mejor relación calidad-precio
+        </div>
+        <div style="width: 40%; float: left;">
+            <div style="float: right; width: fit-content; background-color: var(--Verde_19); padding: 8px; box-sizing: border-box; border-radius: 4px; color: var(--Blanco_FF); font-size: 12px;">
+                {Recomendacion}
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; clear: both; padding: 20px 0; box-sizing: border-box;">
+        <div class="Panel_100_Esp1_65">&nbsp;</div>
+        <div class="Panel_100_Esp1_35">
+            $ {PTotal}
+        </div>
+    </div>
+    <div style="width: 100%; clear:both;">
+        <div class="Panel_100_Esp2_25">
+            <img src="https://mx.clickseguros.lat/Imagenes/ClickSeguros/Aseguradoras/Color/{Cia}_cot.png" style="width:70%;" />
+        </div>
+        <div class="Panel_100_Esp2_40">
+            <div style="width: 100%; padding: 8px 0 4px; box-sizing: border-box;" class="Titulo_Verde_3">
+                {Cobertura1}
+            </div>
+            <div style="width: 100%; padding: 8px 0 4px; box-sizing: border-box;" class="Titulo_Verde_3">
+                {Cobertura2}
+            </div>
+            <div style="width: 100%; padding: 8px 0 4px; box-sizing: border-box;" class="Titulo_Verde_3">
+                {Cobertura3}
+            </div>
+        </div>
+        <div class="Panel_100_Esp2_35">
+            <div style="width: 100%;">&nbsp;</div>
+            <div>
+                <div style="width: 50%; float:left; text-align: left; color: var(--Gris_6B); font-size: 14px; text-decoration: underline; cursor: pointer;" onclick="Cargar_Detalle('{Cia}');">
+                    <img src="Imagenes/info.svg" />&nbsp;Ver detalles
+                </div>
+                <div style="width: 50%; float: left; text-align: right; color: var(--Gris_6B);">
+                    <input type="checkbox" class="chkComparar" data-cia="{Cia}" style="border: 1px solid var(--Gris_DF);" />&nbsp;Comparar
+                </div>
+            </div>
+            <div style="width: 100%; clear: both;">&nbsp;</div>
+            <div onclick="Carga_Paso4('{Cia}', '{PTotal}', '{Folio}');" style="width: 100%; height: 40px; gap: 8px; opacity: 1; border-radius: 4px; padding: 8px 0; box-sizing: border-box; color: var(--Blanco_FF); background-color: var(--Morado_60); cursor: pointer;">
+                Quiero este plan
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; clear: both;"></div>
+
+</div>
+<div style="width: 100%;">&nbsp;</div>

@@ -1,0 +1,318 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VSCode\\Cotizador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Estilos\\Generales.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Estilos\\Generales.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Cotizador\\Paso3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cotizador\\Paso3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Estilos\\Componentes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Estilos\\Componentes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Scripts\\Generales.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Generales.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Scripts\\Variables.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Variables.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Scripts\\Token.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Token.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Scripts\\Core.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Core.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Scripts\\Carga.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Carga.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Scripts\\Apis.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Apis.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Cotizador\\Paso2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cotizador\\Paso2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Cotizador\\Card_Cotizacion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cotizador\\Card_Cotizacion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Estilos\\Fuentes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Estilos\\Fuentes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Estilos\\Variables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Estilos\\Variables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Cotizador\\Paso4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cotizador\\Paso4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Cotizador\\Paso5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cotizador\\Paso5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Pasos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pasos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSCode\\Cotizador\\Cotizador\\Paso6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cotizador\\Paso6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paso3.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Cotizador\\Paso3.html",
+              "RelativeDocumentMoniker": "Cotizador\\Paso3.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Cotizador\\Paso3.html",
+              "RelativeToolTip": "Cotizador\\Paso3.html",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-18T01:43:49.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Generales.js",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Scripts\\Generales.js",
+              "RelativeDocumentMoniker": "Scripts\\Generales.js",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Scripts\\Generales.js",
+              "RelativeToolTip": "Scripts\\Generales.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T21:37:25.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Carga.js",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Scripts\\Carga.js",
+              "RelativeDocumentMoniker": "Scripts\\Carga.js",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Scripts\\Carga.js",
+              "RelativeToolTip": "Scripts\\Carga.js",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwEAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T20:35:32.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Apis.js",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Scripts\\Apis.js",
+              "RelativeDocumentMoniker": "Scripts\\Apis.js",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Scripts\\Apis.js",
+              "RelativeToolTip": "Scripts\\Apis.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T22:08:10.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Variables.js",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Scripts\\Variables.js",
+              "RelativeDocumentMoniker": "Scripts\\Variables.js",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Scripts\\Variables.js",
+              "RelativeToolTip": "Scripts\\Variables.js",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAmwFwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T21:37:03.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Core.js",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Scripts\\Core.js",
+              "RelativeDocumentMoniker": "Scripts\\Core.js",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Scripts\\Core.js",
+              "RelativeToolTip": "Scripts\\Core.js",
+              "ViewState": "AgIAANMAAAAAAAAAAAAmwOYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T22:07:32.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Card_Cotizacion.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Cotizador\\Card_Cotizacion.html",
+              "RelativeDocumentMoniker": "Cotizador\\Card_Cotizacion.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Cotizador\\Card_Cotizacion.html",
+              "RelativeToolTip": "Cotizador\\Card_Cotizacion.html",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-18T22:24:39.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Paso2.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Cotizador\\Paso2.html",
+              "RelativeDocumentMoniker": "Cotizador\\Paso2.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Cotizador\\Paso2.html",
+              "RelativeToolTip": "Cotizador\\Paso2.html",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwF4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-07T20:48:30.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Token.js",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Scripts\\Token.js",
+              "RelativeDocumentMoniker": "Scripts\\Token.js",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Scripts\\Token.js",
+              "RelativeToolTip": "Scripts\\Token.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-11T20:28:21.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Generales.css",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Estilos\\Generales.css",
+              "RelativeDocumentMoniker": "Estilos\\Generales.css",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Estilos\\Generales.css",
+              "RelativeToolTip": "Estilos\\Generales.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-09T19:23:57.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Componentes.css",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Estilos\\Componentes.css",
+              "RelativeDocumentMoniker": "Estilos\\Componentes.css",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Estilos\\Componentes.css",
+              "RelativeToolTip": "Estilos\\Componentes.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-01T16:35:59.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Variables.css",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Estilos\\Variables.css",
+              "RelativeDocumentMoniker": "Estilos\\Variables.css",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Estilos\\Variables.css",
+              "RelativeToolTip": "Estilos\\Variables.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-09T19:41:00.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Fuentes.css",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Estilos\\Fuentes.css",
+              "RelativeDocumentMoniker": "Estilos\\Fuentes.css",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Estilos\\Fuentes.css",
+              "RelativeToolTip": "Estilos\\Fuentes.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-29T22:17:36.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Paso4.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Cotizador\\Paso4.html",
+              "RelativeDocumentMoniker": "Cotizador\\Paso4.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Cotizador\\Paso4.html",
+              "RelativeToolTip": "Cotizador\\Paso4.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-28T14:19:07.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Paso5.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Cotizador\\Paso5.html",
+              "RelativeDocumentMoniker": "Cotizador\\Paso5.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Cotizador\\Paso5.html",
+              "RelativeToolTip": "Cotizador\\Paso5.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-28T14:18:43.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pasos.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Pasos.html",
+              "RelativeDocumentMoniker": "Pasos.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Pasos.html",
+              "RelativeToolTip": "Pasos.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-07T20:48:18.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Paso6.html",
+              "DocumentMoniker": "C:\\VSCode\\Cotizador\\Cotizador\\Paso6.html",
+              "RelativeDocumentMoniker": "Cotizador\\Paso6.html",
+              "ToolTip": "C:\\VSCode\\Cotizador\\Cotizador\\Paso6.html",
+              "RelativeToolTip": "Cotizador\\Paso6.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-28T14:45:02.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

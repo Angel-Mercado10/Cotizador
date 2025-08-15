@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asegurate Ya!</title>
+    <link rel="shortcut icon" type="imagen/x-icon" href="Imagenes/AsegurateYa.png">
+    <script>
+        var iRandom = Math.random();
+        var sCarga = "Scripts/Carga.js?n=" + iRandom;
+
+        window.onload = function () {
+            var script1 = document.createElement('script');
+            script1.src = sCarga;
+            document.head.appendChild(script1);
+        };
+    </script>
+</head>
+<body>
+    <div style="width: 100vw; height: 80px; background: var(--Blanco_FF); box-shadow: 0px 1px 4px 0px var(--Verde_22); text-align:center; padding: 20px 0 0; box-sizing:border-box; left: 0; top:0; position: absolute;">
+        <img src="Imagenes/AsegurateYa.svg" />
+    </div>
+    <div id="BasePasos" style="padding: 32px 20px 0; box-sizing: border-box; margin-top: 80px;">
+
+    </div>
+
+    <div id="loader" class="loader" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+</body>
+</html>
