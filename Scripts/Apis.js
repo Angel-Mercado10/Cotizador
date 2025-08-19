@@ -20,3 +20,11 @@ oServices_CS.Hdi_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.click
 oServices_CS.Mapfre_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Mapfre/api/Mapfre/Cotizacion" };
 oServices_CS.Momento_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Momento/api/Momento/Cotizacion" };
 oServices_CS.Zurich_Cotizacion = { Metodo: "POST", Pagina: "https://apis-alfa.clickseguros.lat/Zurich/api/Zurich/Cotizacion" };
+
+var sZohoAccounts = 'https://accounts.zoho.com';
+var sZohoApi = 'https://www.zohoapis.com';
+var oServices_Zoho = {};
+oServices_Zoho.Refresh = sZohoAccounts + '/oauth/v2/token';
+oServices_Zoho.Vehiculos = sZohoApi + '/crm/v2/Vehiculos';
+oServices_Zoho.Vehiculo = function (id) { return sZohoApi + '/crm/v2/Vehiculos/' + id; };
+oServices_Zoho.Attach = function (id) { return oServices_Zoho.Vehiculo(id) + '/Attachments'; };

@@ -5,6 +5,7 @@ var sCore = "Scripts/Core.js?n=" + iRandom;
 var sApis = "Scripts/Apis.js?n=" + iRandom;
 var sVariables = "Scripts/Variables.js?n=" + iRandom;
 var sGeneral = "Scripts/Generales.js?n=" + iRandom;
+var sZoho = "Scripts/Zoho.js?n=" + iRandom;
 //Estilos
 var sEstilo1 = "Estilos/Variables.css?n=" + iRandom;
 var sEstilo2 = "Estilos/Fuentes.css?n=" + iRandom;
@@ -31,12 +32,14 @@ script2.src = sCore;
 script3.src = sApis;
 script4.src = sVariables;
 script5.src = sGeneral;
+script6.src = sZoho;
 
 document.head.appendChild(script1);
 document.head.appendChild(script2);
 document.head.appendChild(script3);
 document.head.appendChild(script4);
 document.head.appendChild(script5);
+document.head.appendChild(script6);
 
 css1.setAttribute("href", sEstilo1);
 css1.setAttribute("rel", "stylesheet");
