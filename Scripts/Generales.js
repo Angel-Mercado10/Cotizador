@@ -467,3 +467,17 @@ function Pinta_Paso6(sRespuesta) {
     document.getElementById("lblCob2").innerHTML = oDatos_Grl.Paso3.oCotizacion.coberturas[1].descripcion;
     document.getElementById("lblCob3").innerHTML = oDatos_Grl.Paso3.oCotizacion.coberturas[2].descripcion;
 };
+
+function GeneraLigaCotizador() {
+    var base = "https://cotizar.asegurateya.com/";
+    var params = [];
+    params.push("email=" + encodeURIComponent(oDatos_Grl.Paso2.Correo));
+    params.push("telefono=" + encodeURIComponent(oDatos_Grl.Paso1.Celular));
+    params.push("year=" + oDatos_Grl.Paso1.Modelo);
+    params.push("make=" + encodeURIComponent(oDatos_Grl.Paso1.Marca));
+    params.push("version=" + encodeURIComponent(oDatos_Grl.Paso1.Version));
+    params.push("transmission=" + encodeURIComponent(oDatos_Grl.Paso1.Transmision));
+    params.push("description=" + encodeURIComponent(oDatos_Grl.Paso1.Descripcion));
+    params.push("clave=" + encodeURIComponent(oDatos_Grl.Paso1.ClaveClick));
+    return base + "?" + params.join("&");
+}

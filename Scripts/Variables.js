@@ -91,3 +91,51 @@ var oDatos_Cotizacion = {
 
 var oCotizaciones = {};
 var aseguradorasSeleccionadas = [];
+
+var oZohoVehiculo = {
+    Numero_Motor: null,
+    Tipo_de_Venta: "Venta Nueva",
+    Transmision: null,
+    Numero: null,
+    Email: "",
+    Aseguradora: null,
+    Codigo_Postal: 8100,
+    Paso: "1",
+    Prima_Total: 9800,
+    UTM_Term: null,
+    Impuesto: 0,
+    Name: "",
+    Version: null,
+    Apellido: null,
+    Serie: null,
+    Tipo_Vehiculo: "Autos",
+    Anio: "2024",
+    Fecha_Nacimiento: null,
+    UTM_Content: null,
+    Modelo: null,
+    UTM_Medium: null,
+    CotizacionDescargada: null,
+    Colonia: null,
+    UTM_Campaign: null,
+    Cilindrada: null,
+    Estado: null,
+    JsonComparador: null,
+    Genero: "Masculino",
+    Prima_Neta: 0,
+    Derecho: 0,
+    Lista_de_seleccion_1: "Contactar",
+    JsonCotizacion: null,
+    Forma_de_Pago: null,
+    Municipio: null,
+    Documento_Identificacion: null,
+    Segmento: "Baja",
+    Marca: "Bajaj",
+    Cobertura: null,
+    Calle: null,
+    Placa: "placa",
+    UTM_Source: null
+};
+
+var oZohoUpdate = {
+    Lista_de_seleccion_1: "Cotizado"
+};
